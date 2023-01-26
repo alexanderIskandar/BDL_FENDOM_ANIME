@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Tensurapedia</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+   <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="css/menu.css">
+   <link rel="stylesheet" href="css/isi.css">
+   <link rel="stylesheet" href="./css/navbar.css">
+</head>
+
+<body class="home">
+    <!-- isi -->
+    <b id="hamburger" onclick="showMenu();">&#8801;</b>
+    <nav id="menu_vertikal">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolia">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about_me">About me</a></li>
+        </ul>
+    </nav>
+
+    <div class="left">
+		<ul>
+			<li><a href="#">History Tensura</a></li>
+            <li><a href="#">Tempest Character</a></li>
+            <li><a href="#">Demon Character</a></li>
+            <li><a href="#">Angel Character</a></li>
+		</ul>
+	</div>
+
+	<div class="right">
+        <center><h2 style="margin-bottom: 2%;">TENSEI SHITARA SLIME DATTA KEN PEDIA</h2></center>
+		<p><img src="../img/history.jpg" height="200" width="350" style="float:left; margin-right: 20px;">
+            That Time I Got Reincarnated as a Slime (bahasa Jepang: Tensei Shitara Suraimu Datta Ken), 
+            juga dikenal sebagai TenSura (bahasa Jepang: 転スラ Hepburn: Tensura) atau Slime Isekai, 
+            yang diterbitkan di Indonesia dengan judul Regarding Reincarnated to Slime oleh Elex Media Komputindo, 
+            adalah sebuah seri novel ringan Jepang bergenre fantasi yang ditulis oleh Fuse dan diilustrasikan oleh Mitz Vah. <br><br>
+
+            Novel ini mulai diserialisasikan secara daring antara tahun 2013 dan 2016 di situs web penerbit novel buatan pengguna, 
+            Shōsetsuka ni Narō. Hak atas seri ini kemudian menjadi milik Micro Magazine, 
+            yang menerbitkan seri novel ringan volume pertama pada tahun 2014. Hingga 30 September 2022, 
+            20 volume ditambah 2 volume ekstra telah diterbitkan.<br><br>
+
+            Novel ringan ini telah dilisensi di Amerika Utara oleh Yen Press, yang menerbitkan volume pertama pada bulan Desember 2017. 
+            Seri ini telah mendapatkan sebuah adaptasi manga yang diterbitkan oleh Kodansha, 
+            bersama dengan 3 manga sempalan yang masing-masing diterbitkan oleh Micro Megazine dan Kodansha, 
+            dan sebuah adaptasi serial anime televisi yang diproduksi oleh Eight Bit yang telah ditayangkan sejak 2 Oktober 2018 hingga 19 Maret 2019. 
+            Musim kedua dari serial anime ini sedang ditayangkan sejak 5 Januari 2021, sedangkan adaptasi anime dari manga sempalan kedua 
+            telah ditayangkan sejak 6 April hingga 22 Juni 2021. <br><br>
+        </p>
+            
+        <div class="allchar">
+            <img src="../img/diablo.png" width="150" height="400">
+            <h3>Tempest Character</h3>
+            <p>    
+            <b>Diablo</b> (Diaburo), juga dikenal sebagai Noir (Nowāru, menyala. "Hitam Purba" ) adalah salah satu dari tujuh Primordial Daemon 
+            dan juga sebagai Sekretaris Kedua Rimuru Tempest. Diablo aneh tetapi juga sangat kalkulatif ketika dia menginginkannya. 
+            Dia biasanya menunjukkan sikap yang tenang, tetapi setiap kali ada yang menghina Rimuru, Diablo berubah menjadi bentuk kedengkian 
+            yang akan menghukum orang yang menghina dengan cara yang paling menyakitkan yang bisa dibayangkan kecuali jika itu bertentangan dengan perintah Rimuru. 
+            Namun, ketika seseorang memiliki hubungan yang baik dengan Rimuru,<br><br>
+            <a href="">Read More...</a>
+            </p>
+        </div>
+
+        <div class="allchar">
+            <img src=../"img/rimuru.png" width="150" height="400">
+            <h3>Demon Character</h3>
+            <p>    
+            <b>Rimuru</b> memiliki rambut biru-perak. Tidak ada karakteristik pada jenis kelamin yang terlihat. 
+            Namun, ia sering disalahartikan sebagai gadis muda karena fakta bahwa wujud aslinya adalah milik Shizue Izawa. 
+            Tapi ketika dia memakai topeng anti-sihir yang dia simpan sebagai kenang-kenangan dari Shizu, 
+            pola bicaranya juga bisa membuatnya tampak seperti anak laki-laki yang belum dewasa bagi orang lain. <br><br>
+            <a href="">Read More...</a>
+            </p>
+        </div>
+        
+        <div class="allchar">
+            <img src="../img/michael.png" width="150" height="400">
+            <h3>Angel Character</h3>
+            <p>    
+            <b>Michael</b> adalah keinginan Ultimate Skill Michael yang berusaha untuk menghidupkan kembali master dan pencipta aslinya, Veldanava . 
+            Dia kehilangan nyawanya dalam pertempuran melawan Rimuru Tempest. Michael sangat percaya diri, 
+            percaya bahwa cara berpikirnya adalah yang tertinggi dan mewujudkan keadilan, sesuai dengan kebajikan yang diwakilinya. 
+            Dia sombong sampai batas tertentu juga. Feldway mengatakan bahwa kehadiran Michael mengingatkan mereka pada Veldanava<br><br>
+            <a href="">Read More...</a>
+            </p>
+        </div>
+    </div>
+    <!--  -->
+</body>
+</html>
+
+<script>
+function showMenu(){
+   var x = document.getElementById('hamburger').innerHTML;
+   console.log(x);
+   if(x=="x"){
+     console.log("close");
+     document.getElementById('hamburger').innerHTML="&#8801;";
+     document.getElementById('menu_vertikal').style.display="none";
+   }else {
+     console.log("hamburger");
+     document.getElementById('hamburger').innerHTML="x";
+     document.getElementById('menu_vertikal').style.display="block";
+   }
+}
+</script>
